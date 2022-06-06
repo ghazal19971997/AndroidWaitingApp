@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="#FFFF">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+    <!-- 글자하고 폰트쓰는거 참조하셔요 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sign up"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="40sp"
+            android:textColor="#2E4A93"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <!-- 아이디 입력 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/register_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:hint= "   Name"
+            android:background="@drawable/roundshapebutton">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+    <!-- 비밀번호 입력 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:background="@drawable/roundshapebutton"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/register_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:hint= "   Email"
+                android:background="@drawable/roundshapebutton">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+    <!-- 닉네임 입력 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:background="@drawable/roundshapebutton"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/register_pass"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:hint="Password"
+                android:background="@drawable/roundshapebutton">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            >
+            <RadioGroup
+                android:id="@+id/isAdminOrUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+
+                    android:id="@+id/Admin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Admin"/>
+
+                <RadioButton
+                    android:id="@+id/User"
+                    android:checked="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Normal User" />
+            </RadioGroup>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <!-- 핸드폰 번호 입력 -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+    </LinearLayout>
+
+    <!-- 버튼들 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:background="@drawable/roundshapebutton"
+            android:text = "Create"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:autoSizeTextType="uniform"
+            android:textColor="#2E4A93">
+
+        </Button>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/gotoLogin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:background="@drawable/roundshapebutton"
+            android:text = "Cancel"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:autoSizeTextType="uniform"
+            android:textColor="#2E4A93">
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+

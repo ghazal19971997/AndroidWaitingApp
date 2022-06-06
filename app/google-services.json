@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "4545226918",
+    "project_id": "fortest-f5c86",
+    "storage_bucket": "fortest-f5c86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4545226918:android:4c29e661ab864fd58f6c67",
+        "android_client_info": {
+          "package_name": "com.example.fortest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4545226918-khlb19tgcbh1i131d5e7ac8mq2ss1tco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgwTke92DTvLSZHVGpwI9ymsedarS899Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4545226918-khlb19tgcbh1i131d5e7ac8mq2ss1tco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
